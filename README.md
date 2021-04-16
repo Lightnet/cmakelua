@@ -22,7 +22,7 @@
 ```bat
 :: Create a build directory
 mkdir build 
-:: change build directory and get CMakeList.txt config.
+:: change build directory and get CMakeLists.txt config.
 cd build && cmake ..
 :: Build the project by default tool compiler to current hardware
 cmake --build . 
@@ -45,5 +45,5 @@ build/Debug
  * https://cmake.org/cmake/help/latest/module/FindLua.html
 
 # Notes:
-  * Lua 5.4.3 github missing luac.c file.
+  * Lua 5.4.3 github missing one luac.c file to run execute program.
   * VS2019 Window 10 64 Bit.
