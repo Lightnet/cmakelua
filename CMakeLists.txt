@@ -86,7 +86,6 @@ link_directories (${PROJECT_BINARY_DIR})
 add_library (lualib 
   STATIC 
   ${LUA_SRC}/lapi.c 
-  #${LUA_SRC}/lauxlib.c #? https://gist.github.com/baiyanhuang/4054106
   ${LUA_SRC}/lcode.c 
   ${LUA_SRC}/lctype.c 
   ${LUA_SRC}/ldebug.c 
@@ -124,7 +123,6 @@ set_target_properties(lualib PROPERTIES OUTPUT_NAME "lua") # rename the library 
 add_library (luadll 
   SHARED  
   ${LUA_SRC}/lapi.c 
-  #${LUA_SRC}/lauxlib.c #? https://gist.github.com/baiyanhuang/4054106
   ${LUA_SRC}/lcode.c 
   ${LUA_SRC}/lctype.c 
   ${LUA_SRC}/ldebug.c 
