@@ -7,12 +7,15 @@
  * cmake 3.20.1
 
 # Information:
-  Testing setup build to run lua executes, lib and dll files. CMake will used get src file download by using FetchContent.
+  Testing setup build to run lua executes, lib and dll files. CMake will build the files base on compile tool and get the src file download by using FetchContent.
 
   By Using the cmake command builds.
 
 # fetch files:
-  There are two which can be downloaded. Github lua  and the other is their main website lua.org.
+  There are two which can be downloaded. Github lua and the other is their main website lua.org.
+
+  * https://www.lua.org/download.html
+  * https://github.com/lua/lua
 
 # Build:
 
@@ -43,3 +46,4 @@ build/Debug
 
 # Notes:
   * Lua 5.4.3 github missing luac.c file.
+  * VS2019 Window 10 64 Bit.
